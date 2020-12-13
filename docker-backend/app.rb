@@ -13,7 +13,7 @@ end
 
 get '/' do
   status 200
-  body '{"films": [{"title": "GTA"}, {"title": "SAMP"}]}'
+  body '{"films": [{"title": "GTA"}, {"title": "SAMP"}] }'
 end
 
 options "*" do
